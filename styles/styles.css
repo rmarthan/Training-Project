@@ -1,0 +1,18 @@
+@-webkit-keyframes spin {
+    from {
+        background-image: -webkit-radial-gradient(ellipse, yellow, #f06d06);
+    }
+    to {
+        background-image: -webkit-radial-gradient(circle, pink, #f06d06);
+    }
+}
+
+html {
+    background: greenyellow;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-animation: spin 1.85s infinite linear;
+}
+
+
