@@ -12,5 +12,73 @@
 </head>
 <body>
 
+
+
+
+                <h2>Guest: Make a Reservation</h2>
+                <form role="form">
+                            <div class="form-group">
+                                <label for="reserveDate">Date</label>
+                                <input type="date" class="form-control" id="reserveDate" placeholder="MM/DD/YYYY">
+
+                            <div class="form-group">
+                                <label for="reserveTime">Time</label>
+                                <input type="time" class="form-control" id="reserveTime" placeholder="HH:MM">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reserveName">Name</label>
+                        <input type="text" class="form-control" id="reserveName" placeholder="Enter Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reservePhone">Phone</label>
+                        <input type="tel" class="form-control" id="reservePhone" placeholder="Enter Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="reserveEmail">Email</label>
+                        <input type="email" class="form-control" id="reserveEmail" placeholder="example@domain.com">
+                    </div>
+
+
+                            <div class="form-group">
+                                <label for="reserveSize">Party Size</label>
+                                <input type="number" class="form-control" id="reserveSize" placeholder="# Guests">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="reserveSpecial">Special Need</label>
+                                <input type="email" class="form-control" id="reserveSpecial" placeholder="e.g. Birthday, Anniversary etc.">
+                            </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn large-btn btn-primary">Reserve</button>
+                        <button type="button" class="btn btn-link">Change Existing Reservation?</button>
+                    </div>
+                </form>
+
+
+                <h2>Owner: Login</h2>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn large-btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-link">Forgot Password?</button>
+                    </div>
+                </form>
+
+<!-- JavaScripts libraries-->
+<script type="text/javascript" src="scripts/lib/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="scripts/lib/bootstrap.min.js"></script>
+
 </body>
 </html>
